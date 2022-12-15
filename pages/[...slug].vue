@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white shadow-inner">
+    <div class="bg-white shadow-inner" v-if="data.title">
         <main id="content" class="w-full md:w-4/6 mx-auto md:flex flex-row">
             <ContentDoc class="w-full" v-slot="{ doc }">
                 <div class="background animate__animated animate__fadeIn animate__delay-1s ease p-32 absolute w-full shadow-2xl left-0"
@@ -12,11 +12,38 @@
                 </div>
             </ContentDoc>
         </main>
+        <hr class="w-full md:w-4/6 mx-auto mt-8" />
+        <footer class="w-full md:w-4/6 mx-auto mt-8 justify-center rounded outline outline-transparent hover:outline-gray-800 hover:drop-shadow-2xl">
+            <NuxtLink
+                :to="next()._path"
+                class="cursor-pointer"
+            >
+                <h2 class="text-4xl py-4 text-center">Continue Reading</h2>
+                <img class="h-64 w-11/12 mx-auto my-4" :src="`/images/blog/${next().thumbnail}`" alt="Thumbnail Image"/>
+                <h3 class="text-xl font-bold px-8">{{ next().title }}</h3>
+                <p class="px-8 py-4">{{ next().description }}</p>
+            </NuxtLink>
+        </footer>
+    </div>
+    <div v-else class="w-full flex flex-col justify-center items-center">
+        <h1 class="text-white text-4xl mb-4 animate__animated animate__fadeInDown animate__delay-2s">404 Not Found</h1>
+        <img class="w-128 h-128 rounded text-center animate__animated animate__fadeIn slow" src="~/assets/images/404.gif" alt="404 Not Found" />
     </div>
 </template>
 <script setup lang="ts">
     const route = useRoute()
+    const articles = await queryContent('/')
+        .sort({
+            createdAt: 1
+        })
+        .find()
     const data = await queryContent(`${route.fullPath}`).findOne()
+
+    const next = () => {
+        return articles.findIndex(article => article.slug === data.slug) !== articles.length - 1
+            ? articles[articles.findIndex(article => article.slug === data.slug) + 1]
+            : articles[0]
+    }
 
     definePageMeta({
         layout: 'blog'
