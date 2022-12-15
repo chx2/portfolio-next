@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between p-8 md:py-8 font-xl">
-        <a href="https://chrish.me/" class="text-gray-200 text-xl">
+        <a href="/" class="text-gray-200 text-xl">
             CH
         </a>
         <nav>
