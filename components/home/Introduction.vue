@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 my-32">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 mt-32 mb-96">
         <div>
             <div class="flex mb-4">
                 <h1 class="text-gray-200 text-4xl animate__animated animate__fadeInLeft animate__delay-1s">Hello, my name is <span class="text-red-500">Chris</span></h1>
