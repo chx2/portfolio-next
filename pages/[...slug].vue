@@ -7,7 +7,7 @@
                     <h1 class="text-white hidden md:block text-6xl text-center m-4">{{ doc.title }}</h1>
                     <h2 class="text-white hidden md:block text-xl text-center">Published on {{ doc.createdAt }}</h2>
                 </div>
-                <div class="p-4 md:p-0 md:mt-64 md:pt-16 animate__animated animate__fadeInUp animate__slow">
+                <div class="p-4 md:p-0 md:mt-64 md:pt-16 animate__animated animate__fadeInUp animate__slow max-w-full">
                     <ContentRenderer class="mt-32 pt-32 md:pt-0 md:mt-32 prose prose-sm sm:prose lg:prose-lg xl:prose-2xl" :value="doc" />
                 </div>
             </ContentDoc>
