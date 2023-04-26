@@ -15,15 +15,15 @@ export const projectStore = defineStore('projects', {
                 "description": "Created & maintaining personal platform listing experience, projects, and my personal blog."
             },
             {
-              "name": "Ponder",
-              "url": "https://ponder-app.org/",
-              "url_short": "ponder-app.org",
+              "name": "Paid Media Support",
+              "url": "https://paidmedia.support/",
+              "url_short": "paidmedia.support",
               "skills": [
-                "Vue(Composition)",
+                "Laravel",
                 "Tailwind",
-                "Supabase"
+                "Alpine.js"
               ],
-              "description": "Created & maintaining open-source application for creating and playing randomized trivia."
+              "description": "Created & maintaining job board for Paid Media job listings."
             },
             {
                 "name": "Tipoff",
