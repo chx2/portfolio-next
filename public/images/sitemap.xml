@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://chrish.me/</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://chrish.me/resume</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/implementing-chat-gpt</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/to-rewrite-or-not-rewrite</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/chat-gpt</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/taking-the-lead</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/building-a-basic-vue3-app</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/github-copilot</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/web3-the-good-the-bad-and-the-ugly</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/the-web-does-not-exist-in-1984</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/rebuilding-portfolio-because-i-dont-like-spending-money</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/work-productivity-a-story-of-how-a-pandemic-changed-our-perception-on-workplace-efficiency</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/automating-my-web-apps-with-laravel-forge</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/inertia-js</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/laravel-jetstream</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/built-in-tools-to-use-in-your-laravel-projects</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/blazing-fast-prototypes-using-laravel-valet</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/laragon-a-web-developer-tool-belt</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/quarantined-with-nothing-but</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/thinking-with-a-gutenberg-mindset</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/easydocs-is-out</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/articles/learning-new-technology</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chrish.me/laravel-jetstream</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chrish.me/learning-new-technology</loc>
+  <lastmod>2023-05-21T22:28:47+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
