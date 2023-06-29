@@ -20,10 +20,10 @@ export const projectStore = defineStore('projects', {
               "url_short": "paidmedia.support",
               "skills": [
                 "Laravel",
-                "Tailwind",
-                "Alpine.js"
+                "Alpine.js",
+                "OpenAI"
               ],
-              "description": "Created & maintaining job board for Paid Media job listings."
+              "description": "Created & maintaining job board for Paid Media job listings that integrates with third-party job providers alongside OpenAI technology."
             },
             {
                 "name": "Tipoff",
