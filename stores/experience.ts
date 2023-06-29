@@ -20,7 +20,7 @@ export const experienceStore = defineStore('experiences', {
               "name": "Teaching Assistant",
               "org": "Trilogy Education",
               "start": "2020",
-              "end": "Current",
+              "end": "2021",
               "tasks": [
                 "Assisting students with coursework in full-stack JavaScript courses",
                 "Working with fellow TA’s and professor to craft lesson plans",
